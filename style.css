@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #f6f6f6;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 1210px;
+  margin: 0;
+}
+
+.section {
+  width: 100%;
+  padding: 0 150px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.s_b {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linear {
+  background-image: linear-gradient(to right, #f7941d, #27aae1);
+  height: 3px;
+}
+
+.main .header_section {
+  background-color: #00093c;
+}
+.main .header_section .container {
+  width: 1210px;
+  margin: 0;
+}
+.main .header_section .container .box {
+  width: 100%;
+  height: 100%;
+}
+.main .header_section .container .box .header {
+  padding: 15px 0;
+}
+.main .header_section .container .box .header li {
+  font-weight: 500;
+  line-height: 17px;
+  font-size: 14px;
+  color: #ffffff;
+  padding-right: 40px;
+}
+.main .header_section .container .box .header .nav_Links img {
+  padding-right: 6px;
+}
+.main .header_section .container .box .header .info_Links .switch {
+  width: 20px;
+  height: 10px;
+}
+.main .header_section .container .box .header .info_Links .account {
+  width: 20px;
+  height: 15px;
+}
+.main .header_section .container .box .header img {
+  padding-right: 6px;
+}
+.main .header_section .container .box .logo img {
+  width: 100px;
+  height: 51.93px;
+}
+.main .linear {
+  width: 120px;
+  margin: 0 360px;
+  position: relative;
+  top: -3px;
+}
+.main .section .container {
+  width: 1210px;
+  margin: 0;
+}
+.main .section .container .box {
+  width: 100%;
+  height: 100%;
+}
+.main .section .container .box .learning_section .learning_type h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.main .section .container .box .learning_section .linear {
+  width: 160px;
+  position: relative;
+  left: -25px;
+}
+.main .section .container .box .learning_section .age_section {
+  padding: 0 280px;
+}
+.main .section .container .box .learning_section .age_section .family {
+  gap: 20px;
+  padding: 0 70px;
+}
+.main .section .container .box .learning_section .age_section .family .age_img {
+  width: 49px;
+  height: 49px;
+}
+.main .section .container .box .learning_section .age_section .family .age {
+  display: flex;
+  align-items: center;
+}
+.main .section .container .box .learning_section .age_section .family .age h3 {
+  line-height: 19.5px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+.main .section .container .box .learning_section .age_section .family .age p {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+.main .section .container .box .line {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+.main .section .container .box .con_section {
+  gap: 130px;
+}
+.main .section .container .box .con_section .sidebar {
+  padding: 25px 0;
+}
+.main .section .container .box .con_section .sidebar .line {
+  margin: 10px 0;
+}
+.main .section .container .box .con_section .sidebar p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: #000000;
+}
+.main .section .container .box .con_section .sidebar nav {
+  padding: 23px;
+}
+.main .section .container .box .con_section .sidebar nav li {
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #333333;
+}
+.main .section .container .box .con_section .content .con_Link .text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #000000;
+}
+.main .section .container .box .con_section .content .con_Link .nav_con_Links {
+  gap: 19px;
+}
+.main .section .container .box .con_section .content .con_Link .nav_con_Links p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px 16px;
+  background-color: #ffffff;
+}
+.main .section .container .box .con_section .con_info_boxes .con_info_box {
+  padding: 70px;
+  width: 50%;
+  height: 250px;
+}
+.main .section .container .box .con_section .con_info_boxes .con_info_box div {
+  padding: 10px;
+}
+.main .section .container .box .con_section .con_info_boxes .con_info_box .program p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4f4f4f;
+}
+.main .section .container .box .con_section .con_info_boxes .con_info_box .con_icon p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: line-height21;
+  color: #00093C;
+}
+.main .section .container .box .con_section .con_info_boxes .con_info_box .con_info p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.5px;
+  color: #4f4f4f;
+}
+.main .section .container .box .con_section .con_info_boxes .con_info_box .month p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
